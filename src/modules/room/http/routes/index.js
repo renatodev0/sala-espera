@@ -2,11 +2,11 @@ const roomController = require("../controllers/roomController");
 
 const waitingRoom = {
   scope: "waitingRoom",
-  prefix: "/",
+  prefix: "/room",
   routes: [
     {
       method: "GET",
-      path: "/",
+      path: "/:id?",
       description: "Include or verify user in queue",
       middlewares: [],
       handler: roomController.index,

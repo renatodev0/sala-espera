@@ -11,10 +11,12 @@ class User extends Model {
           primaryKey: true,
         },
         last_interaction: Sequelize.DATE,
+        status: Sequelize.STRING,
       },
       {
         sequelize,
         modelName: "user",
+        timestamps: false,
       }
     );
 

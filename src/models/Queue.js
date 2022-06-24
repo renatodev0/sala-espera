@@ -5,6 +5,11 @@ class Queue extends Model {
   static init(sequelize) {
     super.init(
       {
+        id: {
+          type: Sequelize.INTEGER,
+          primaryKey: true,
+          autoIncrement: true,
+        },
         limit: Sequelize.INTEGER,
         online: Sequelize.INTEGER,
         time_update: Sequelize.INTEGER,
@@ -13,6 +18,7 @@ class Queue extends Model {
       {
         sequelize,
         modelName: "queue",
+        timestamps: false,
       }
     );
 

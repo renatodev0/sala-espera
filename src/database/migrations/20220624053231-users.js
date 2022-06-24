@@ -16,6 +16,10 @@ module.exports = {
         type: Sequelize.DATE,
         allowNull: false,
       },
+      status: {
+        type: Sequelize.DATE,
+        allowNull: false,
+      },
     });
   },
 
