@@ -1,0 +1,26 @@
+{
+  "name": "sala-espera",
+  "version": "1.0.0",
+  "description": "sala de espera",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renatodev0/sala-espera.git"
+  },
+  "author": "renato",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/renatodev0/sala-espera/issues"
+  },
+  "homepage": "https://github.com/renatodev0/sala-espera#readme",
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
+}
